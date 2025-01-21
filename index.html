@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #cccccc;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: #ffcccb; /* Change this color for your preference */
+        }
+        /* Make sure the first column (Time) is fixed on the left */
+        td:first-child, th:first-child {
+            position: sticky;
+            left: 0;
+            background-color: #f2f2f2;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label>9am - 11am</label></td>
+                <td class="highlight"><label>Web and App<br>Section-A</label></td>
+                <td><label>Graphics Designing<br>Section-A</label></td>
+                <td><label>Web and App<br>Section-A</label></td>
+                <td><label>Graphics Designing<br>Section-A</label></td>
+                <td class="highlight"><label>Web and App<br>Section-B</label></td>
+                <td><label>Free Space</label></td>
+            </tr>
+            <tr>
+                <td><label>11am - 1pm</label></td>
+                <td><label>Graphics Designing<br>Section-B</label></td>
+                <td><label>Web and App<br>Section-B</label></td>
+                <td><label>Graphics Designing<br>Section-B</label></td>
+                <td><label>Web and App<br>Section-B</label></td>
+                <td><label>Graphics Designing<br>Section-A</label></td>
+                <td><label>Graphics Designing<br>Section-B</label></td>
+            </tr>
+            <tr>
+                <td><label>1pm - 2pm</label></td>
+                <td colspan="6"><label>Namaz and Lunch Break</label></td>
+            </tr>
+            <tr>
+                <td><label>2pm - 4pm</label></td>
+                <td><label>Video Editing<br>Section-A</label></td>
+                <td><label>CCO<br>Section-C</label></td>
+                <td><label>Video Editing<br>Section-B</label></td>
+                <td><label>CCO<br>Section-C</label></td>
+                <td><label>Video Editing<br>Section-C</label></td>
+                <td><label>CCO<br>Section-B</label></td>
+            </tr>
+            <tr>
+                <td><label>4pm - 6pm</label></td>
+                <td class="highlight"><label>Graphics Designing<br>Section-C</label></td>
+                <td><label>Graphics Designing<br>Section-C</label></td>
+                <td><label>Graphics Designing<br>Section-C</label></td>
+                <td><label>Graphics Designing<br>Section-B</label></td>
+                <td><label>Graphics Designing<br>Section-A</label></td>
+                <td><label>Graphics Designing<br>Section-B</label></td>
+            </tr>
+            <tr>
+                <td><label>6pm - 8pm</label></td>
+                <td><label>AI and Chatbot<br>Section-A</label></td>
+                <td><label>AI and Chatbot<br>Section-A</label></td>
+                <td><label>AI and Chatbot<br>Section-B</label></td>
+                <td><label>AI and Chatbot<br>Section-B</label></td>
+                <td><label>AI and Chatbot<br>Section-B</label></td>
+                <td><label>AI and Chatbot<br>Section-A</label></td>
+            </tr>
+            <tr>
+                <td><label>9pm - 11pm</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+                <td><label>Web and App<br>Sir Inzamam</label></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
